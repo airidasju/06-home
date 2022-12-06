@@ -4,6 +4,20 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
- }​
-
+ }
  
+ main  p:first-of-type{
+    font-size: 20px;
+ }
+
+ h1 {
+    font-size: 70px;
+ }
+ 
+ .about-info > div > i {
+    font-size: 50px;
+    color: orange;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+ }
