@@ -18,4 +18,33 @@ ul {
     gap: 40px;
     list-style: none;
     margin-left: 700px;
+    margin-right: 150px;
+}
+
+.notifications {
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.star-compass {
+    background-color: orange;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.star-compass > .fa.fa-compass {
+    background-color: black;
+    padding: 5px 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+header > img {
+    width: 65px;
+    height: 65px;
+border-radius: 50%;
 }
