@@ -1,28 +1,33 @@
-img {
-    transform: scale(0.5)
-}
-
 header {
     display: flex;
     align-items: center;
-    margin: 0 40px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 header > .top-left {
     display: flex;
     align-items: center;
+    margin-right: 650px;
 }
+
 
 ul {
     display: flex;
     gap: 40px;
     list-style: none;
-    margin-left: 700px;
-    margin-right: 150px;
+    align-items: center;
+
+}
+
+nav {
+    margin-right: 100px;
+
 }
 
 .notifications {
-    margin-right: 150px;
+    margin-right: 5%;
     display: flex;
     align-items: center;
     gap: 20px
@@ -39,21 +44,25 @@ ul {
 .star-compass > .fa.fa-compass {
     background-color: black;
     padding: 5px 10px;
-    margin-left: 15px;
     border-radius: 5px;
+    margin-left: 10px;
+}
+
+.my-profile {
+    margin-right: 20px;
 }
 
 header > img {
-    width: 65px;
-    height: 65px;
-border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 150px;
 }
 
 main  h1{
@@ -64,7 +73,8 @@ main  h1{
     display:flex;
     align-items: center;
     gap: 70px;
-    width: 45%
+    width: 45%;
+    margin-bottom: 40px;
  }
 
 .about-info > .info-group {
@@ -75,9 +85,62 @@ main  h1{
     border-radius: 20px;
     gap: 10px;
 }
-p::before {
-    content: "";
- background-color: brown;
- width: 50px;
- height: 50px;
+
+.line {
+    position: relative;
+    margin-left: 22%;
+}
+
+.line::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    border-radius: 2px;
+    height: 60%;
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    left: -20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > .bottom {
+    display:flex;
+    width: 70%;
+}
+
+.bottom > .box {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    padding: 0 30px;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom > .box:nth-child(1) {
+background-color: #313ef7;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+.bottom > .box:nth-child(2) {
+    background-color: #fe7926;
+}
+
+.box:nth-child(3) {
+    background-color: #e4dffc;
+    color: #313ef7;
+}
+
+.bottom > .box:nth-child(4) {
+    background-color: #196e86;
+    border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
 }

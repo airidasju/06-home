@@ -1,17 +1,21 @@
 .background {
-    background:url('/img/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
- }
+    background:url('/img/background.jpg') no-repeat center center fixed;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
  
- main  p:first-of-type{
-    font-size: 20px;
+ main > p:first-of-type{
+    font-size: 100px;
+    margin-bottom: -20px;
  }
 
  h1 {
-    font-size: 70px;
+    font-size: 120px;
  }
  
  .about-info > div > i {
