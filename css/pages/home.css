@@ -19,9 +19,15 @@ body {
  }
  
  .about-info > div > i {
-    font-size: 50px;
+    font-size: 60px;
     color: orange;
     background-color: whitesmoke;
     border-radius: 20px;
     padding: 10px;
  }
+
+ .info-text > p:nth-child(1) {
+   font-size: 40px;
+   font-weight: bold;
+ }
+
