@@ -91,7 +91,7 @@ main h1{
     display:flex;
     align-items: center;
     gap: 70px;
-    margin-bottom: 130px;
+    margin-bottom: 125px;
 }
 
 .about-info > .info-group {
@@ -136,7 +136,7 @@ footer > .container {
 
 footer > .container > .box {
     width: 25%;
-    height: 200px;
+    height: 250px;
     display: flex;
     padding: 0 30px;
     gap: 30px;
@@ -148,16 +148,29 @@ footer > .container > .box:nth-child(1) {
 background-color: #313ef7;
 border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;
+position: relative;
 }
+
+footer > .container > .box:nth-child(1)::before {
+    position: absolute;
+    content: url(./../../img/square-one.png);
+    top: 0px;
+    left: 0px;
+
+    }
 
 footer > .container > .box:nth-child(2) {
     background-color: #fe7926;
+    position: relative;
 }
+
+
 
 footer > .container > .box:nth-child(3) {
     background-color: #e4dffc;
     color: #313ef7;
 }
+
 
 footer > .container > .box:nth-child(4) {
     background-color: #196e86;
