@@ -8,7 +8,10 @@ body {
     height: 100%;
 }
 
- 
+header {
+   font-weight: bold;
+} 
+
  main .main-title p{
     font-size: 80px;
     margin-bottom: -20px;
