@@ -217,5 +217,12 @@ footer > .container > .box:nth-child(4) {
     background-color: #196e86;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    position: relative;
 }
 
+footer > .container > .box:nth-child(4)::after {
+    position: absolute;
+    content: url(./../../img/dotted-line.png);
+    right: 0px;
+    bottom: 24px;
+    }
