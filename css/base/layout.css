@@ -11,12 +11,13 @@ header > .container {
 header {
     margin-top: 30px;
     margin-bottom: 100px;
+    padding: 0 20px;
 }
 
 header > .container > .top-left {
     display: flex;
     align-items: center;
-    margin-right: 650px;
+    width: 50%
 }
 
 
