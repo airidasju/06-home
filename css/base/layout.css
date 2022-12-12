@@ -231,6 +231,7 @@ footer > .container > .box:nth-child(4)::after {
 @media (max-width: 1200px) {
   main > .container {
     height: 375px;
+    margin-bottom: 50px;
   }
   footer > .container {
     display: grid;
@@ -240,5 +241,19 @@ footer > .container > .box:nth-child(4)::after {
   footer > .container > .box {
     width: 400px;
     height: 200px;
+  }
+
+  .about-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    justify-items:start;
+    grid-column-gap: 290px;
+  }
+  main h1 {
+    margin-bottom: 30px;
+  }
+  header {
+    margin-bottom: 30px;
   }
 }
