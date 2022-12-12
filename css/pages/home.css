@@ -1,0 +1,72 @@
+body {
+  background: url('/img/background.jpg') no-repeat center center fixed;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  font-weight: bold;
+}
+
+main .main-title p {
+  font-size: 80px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.about-info > div > i {
+  font-size: 30px;
+  color: orange;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.info-text > p:nth-child(1) {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  footer > .container > .box {
+    border-radius: 20px;
+  }
+
+  footer > .container > .box:nth-child(1)::before {
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+   left: 267px;
+  }
+
+  footer > .container > .box:nth-child(2)::before {
+    left: 230px;
+  }
+
+  footer > .container > .box:nth-child(4)::after {
+   right: 230px;
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+  }
+
+  footer > .container > .box:nth-child(3)::before {
+    left: 230px;
+  }
+
+  footer > .container > .box:nth-child(4)::before {
+    left: 230px;
+    top: -10px;
+  }
+}

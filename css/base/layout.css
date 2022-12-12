@@ -1,0 +1,272 @@
+.container {
+  width: 100%;
+}
+
+header > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding: 0 20px;
+}
+
+header > .container > .top-left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+}
+
+nav {
+  margin-right: 100px;
+}
+
+.notifications {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+span > .fa-bars {
+    display: none;
+    margin-right: 20px;
+  }
+
+.star-compass {
+  background-color: orange;
+  padding: 5px 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.star-compass > .fa.fa-compass {
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.my-profile {
+  margin-right: 20px;
+}
+
+header > div > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container > .main-title {
+  width: 800px;
+}
+
+main h1 {
+  margin-bottom: 70px;
+}
+
+main > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-bottom: 125px;
+}
+
+.about-info > .info-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.line-p {
+  position: relative;
+  width: 220px;
+  white-space: normal;
+  margin-left: 40px;
+}
+
+.line-p::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  border-radius: 2px;
+  height: 60%;
+  background-color: #fff;
+  position: absolute;
+  top: 15px;
+  left: -20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1500px;
+  padding: 0 10px;
+}
+
+footer > .container > .box {
+  width: 25%;
+  height: 250px;
+  display: flex;
+  padding: 20px 30px;
+  gap: 30px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer > .container > .box:nth-child(1) {
+  background-color: #313ef7;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+  justify-content: center;
+}
+
+footer > .container > .box:nth-child(1)::before {
+  position: absolute;
+  content: url(./../../img/square-one.png);
+  top: 0px;
+  left: 0px;
+}
+
+footer > .container > .box:nth-child(1)::after {
+  position: absolute;
+  content: url(./../../img/dotted-line.png);
+  right: 0px;
+  bottom: 24px;
+}
+
+footer > .container > .box:nth-child(2) {
+  background-color: #fe7926;
+  position: relative;
+}
+
+footer > .container > .box:nth-child(2)::before {
+  position: absolute;
+  content: url(./../../img/square-two.png);
+  top: 0px;
+  left: 0px;
+}
+
+footer > .container > .box:nth-child(2)::after {
+  position: absolute;
+  content: url(./../../img/dotted-line.png);
+  top: 51px;
+  left: 0px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+footer > .container > .box:nth-child(3) {
+  background-color: #e4dffc;
+  color: #313ef7;
+  position: relative;
+}
+
+footer > .container > .box:nth-child(3)::before {
+  position: absolute;
+  content: url(./../../img/square-three.png);
+  top: 0px;
+  left: 0px;
+}
+
+footer > .container > .box:nth-child(3)::after {
+  position: absolute;
+  content: url(./../../img/dotted-line.png);
+  right: 0px;
+  bottom: 24px;
+}
+
+footer > .container > .box:nth-child(4) {
+  background-color: #196e86;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+
+footer > .container > .box:nth-child(4)::before {
+  position: absolute;
+  content: url(./../../img/square-four.png);
+  top: 10px;
+  left: 80px;
+}
+
+footer > .container > .box:nth-child(4)::after {
+  position: absolute;
+  content: url(./../../img/dotted-line.png);
+  right: 0px;
+  bottom: 24px;
+}
+
+@media (max-width: 1200px) {
+  main > .container {
+    height: 375px;
+    margin-bottom: 50px;
+  }
+  footer > .container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 10px;
+  }
+  footer > .container > .box {
+    width: 400px;
+    height: 200px;
+  }
+
+  .about-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    justify-items:start;
+    grid-column-gap: 290px;
+  }
+  main h1 {
+    margin-bottom: 30px;
+  }
+  header {
+    margin-bottom: 30px;
+  }
+
+  nav > ul > li {
+    display: none;
+  }
+  span > .fa-bars {
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
