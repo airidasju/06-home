@@ -182,8 +182,16 @@ footer > .container > .box:nth-child(2)::before {
     content: url(./../../img/square-two.png);
     top: 0px;
     left: 0px;
-
     }
+
+    footer > .container > .box:nth-child(2)::after {
+        position: absolute;
+        content: url(./../../img/dotted-line.png);
+        top: 47px;
+        left: 0px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        }
 
 footer > .container > .box:nth-child(3) {
     background-color: #e4dffc;
