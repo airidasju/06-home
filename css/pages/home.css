@@ -40,3 +40,22 @@ header {
    font-weight: bold;
  }
 
+ @media (max-width: 1200px) {
+      footer > .container > .box:nth-child(1) {
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 0px;
+      }
+         
+      footer > .container > .box:nth-child(2) {
+         border-top-right-radius: 20px;
+      }
+      
+      footer > .container > .box:nth-child(3) {
+         border-bottom-left-radius: 20px;
+      }
+
+      footer > .container > .box:nth-child(4) {
+         border-top-right-radius: 0px;
+      }
+ }
+
