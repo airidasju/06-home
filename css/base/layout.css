@@ -38,6 +38,11 @@ nav {
   gap: 20px;
 }
 
+span > .fa-bars {
+    display: none;
+    margin-right: 20px;
+  }
+
 .star-compass {
   background-color: orange;
   padding: 5px 8px;
@@ -255,5 +260,13 @@ footer > .container > .box:nth-child(4)::after {
   }
   header {
     margin-bottom: 30px;
+  }
+
+  nav > ul > li {
+    display: none;
+  }
+  span > .fa-bars {
+    display: inline-block;
+    margin-right: 20px;
   }
 }
