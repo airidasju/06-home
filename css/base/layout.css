@@ -138,17 +138,23 @@ footer > .container > .box {
     width: 25%;
     height: 250px;
     display: flex;
-    padding: 0 30px;
+    padding: 20px 30px;
     gap: 30px;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
+    align-items: flex-start;
 }
+
+/* footer > .container > .box > h2{
+    margin-top: 70px;
+} */
 
 footer > .container > .box:nth-child(1) {
 background-color: #313ef7;
 border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;
 position: relative;
+justify-content: center;
 }
 
 footer > .container > .box:nth-child(1)::before {
@@ -159,12 +165,25 @@ footer > .container > .box:nth-child(1)::before {
 
     }
 
+    footer > .container > .box:nth-child(1)::after {
+        position: absolute;
+        content: url(./../../img/dotted-line.png);
+        right: 0px;
+        bottom: 20px;
+        }
+
 footer > .container > .box:nth-child(2) {
     background-color: #fe7926;
     position: relative;
 }
 
+footer > .container > .box:nth-child(2)::before {
+    position: absolute;
+    content: url(./../../img/square-two.png);
+    top: 0px;
+    left: 0px;
 
+    }
 
 footer > .container > .box:nth-child(3) {
     background-color: #e4dffc;
