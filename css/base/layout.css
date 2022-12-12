@@ -169,7 +169,7 @@ footer > .container > .box:nth-child(1)::before {
         position: absolute;
         content: url(./../../img/dotted-line.png);
         right: 0px;
-        bottom: 20px;
+        bottom: 24px;
         }
 
 footer > .container > .box:nth-child(2) {
@@ -196,11 +196,26 @@ footer > .container > .box:nth-child(2)::before {
 footer > .container > .box:nth-child(3) {
     background-color: #e4dffc;
     color: #313ef7;
+    position: relative;
 }
 
+footer > .container > .box:nth-child(3)::before {
+    position: absolute;
+    content: url(./../../img/square-three.png);
+    top: 0px;
+    left: 0px;
+    }
+
+    footer > .container > .box:nth-child(3)::after {
+        position: absolute;
+        content: url(./../../img/dotted-line.png);
+        right: 0px;
+        bottom: 24px;
+        }
 
 footer > .container > .box:nth-child(4) {
     background-color: #196e86;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
