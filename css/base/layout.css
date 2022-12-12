@@ -233,3 +233,18 @@ footer > .container > .box:nth-child(4)::after {
     right: 0px;
     bottom: 24px;
     }
+
+@media (max-width: 1200px) {
+    main > .container {
+        height: 375px;
+    }
+    footer > .container {
+        display: grid;
+    grid-template-columns: 400px 400px;
+    }
+    footer > .container > .box {
+        width: 400px;
+        height: 200px;
+    }
+    
+}
