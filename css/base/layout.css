@@ -145,9 +145,6 @@ footer > .container > .box {
     align-items: flex-start;
 }
 
-/* footer > .container > .box > h2{
-    margin-top: 70px;
-} */
 
 footer > .container > .box:nth-child(1) {
 background-color: #313ef7;
