@@ -45,17 +45,29 @@ header {
       border-top-left-radius: 20px;
       border-bottom-left-radius: 0px;
       }
-         
+
       footer > .container > .box:nth-child(2) {
          border-top-right-radius: 20px;
+      }
+
+      footer > .container > .box:nth-child(2)::before {
+         left:230px;
       }
       
       footer > .container > .box:nth-child(3) {
          border-bottom-left-radius: 20px;
       }
 
+      footer > .container > .box:nth-child(3)::before {
+         left:230px;
+      }
+
       footer > .container > .box:nth-child(4) {
          border-top-right-radius: 0px;
+      }
+      footer > .container > .box:nth-child(4)::before {
+         left:230px;
+         top: -10px;
       }
  }
 

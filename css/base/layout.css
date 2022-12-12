@@ -187,7 +187,7 @@ footer > .container > .box:nth-child(2)::before {
     footer > .container > .box:nth-child(2)::after {
         position: absolute;
         content: url(./../../img/dotted-line.png);
-        top: 47px;
+        top: 51px;
         left: 0px;
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
@@ -246,5 +246,5 @@ footer > .container > .box:nth-child(4)::after {
         width: 400px;
         height: 200px;
     }
-    
+
 }
