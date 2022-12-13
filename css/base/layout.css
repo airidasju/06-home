@@ -321,3 +321,55 @@ footer > .container > .box:nth-child(4)::after {
    }
 }
 
+@media (max-width:600px) {
+  header > .container {
+    justify-content: center;
+    align-items: ;
+  }
+  header > .container > .top-left {
+    display: flex;
+    align-items: center;
+    width: 15%;
+  }
+  header > .container > .notifications {
+    margin-right: 20px ;
+  }
+  
+  main > .container {
+    width: 400px;
+  }
+
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .info-group:last-child {
+    width: auto;
+    grid-column: span 1;  }
+
+  .info-group:last-child > .line-p {
+    width: auto;
+  }
+  main {
+    margin-bottom: 30px;
+  }
+
+  .notifications {
+    display: none;
+  }
+
+  .top-left > a  {
+    display: none;
+  }
+  .top-left > p  {
+    display: none;
+  }
+  header > .container > .top-left {
+    display: flex;
+    align-items: center;
+    width: 15%;
+  }
+}
+
