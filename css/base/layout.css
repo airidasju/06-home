@@ -1,6 +1,9 @@
 .container {
   width: 100%;
+  
 }
+
+
 
 header > .container {
   display: flex;
@@ -322,14 +325,8 @@ footer > .container > .box:nth-child(4)::after {
 }
 
 @media (max-width:600px) {
-  header > .container {
-    justify-content: center;
-    align-items: ;
-  }
   header > .container > .top-left {
-    display: flex;
-    align-items: center;
-    width: 15%;
+    width: 8%;
   }
   header > .container > .notifications {
     margin-right: 20px ;
@@ -366,10 +363,6 @@ footer > .container > .box:nth-child(4)::after {
   .top-left > p  {
     display: none;
   }
-  header > .container > .top-left {
-    display: flex;
-    align-items: center;
-    width: 15%;
-  }
+
 }
 
