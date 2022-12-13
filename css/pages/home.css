@@ -105,16 +105,16 @@ h1 {
    }
 
    footer > .container > .box:nth-child(4)::after {
-    right: 645px;
+    left: 0px;
     bottom: -12px;
     width: 11em;
   }
   footer > .container > .box:nth-child(3)::after {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    right: 645px;
     bottom: -12px;
     width: 11em;
+    left:0px;
   }
   footer > .container > .box:nth-child(2)::after {
     top: -12px;
@@ -124,3 +124,19 @@ h1 {
     display: none;
   }
 }
+
+@media (max-width: 680px) {
+   footer > .container > .box:nth-child(4)::before {
+    display: none;
+  }
+  footer > .container > .box:nth-child(3)::before {
+    display: none;
+  }
+  footer > .container > .box:nth-child(2)::before {
+    display: none;
+  }
+  footer > .container > .box:nth-child(1)::before {
+    display: none;
+  }
+}
+
