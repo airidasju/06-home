@@ -70,3 +70,57 @@ h1 {
     top: -10px;
   }
 }
+
+@media (max-width: 840px) {
+  main .main-title p {
+    font-size: 40px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  footer > .container > .box:nth-child(1)::before {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    left: 267px;
+   }
+ 
+   footer > .container > .box:nth-child(2)::before {
+     left: 450px;
+     top: -8px;
+   }
+ 
+   footer > .container > .box:nth-child(3)::before {
+     left: 480px;
+     transform: rotate(10deg);
+     top: -14px;
+   }
+ 
+   footer > .container > .box:nth-child(4)::before {
+     left: 480px;
+     top: -10px;
+   }
+
+   footer > .container > .box:nth-child(4)::after {
+    right: 645px;
+    bottom: -12px;
+    width: 11em;
+  }
+  footer > .container > .box:nth-child(3)::after {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    right: 645px;
+    bottom: -12px;
+    width: 11em;
+  }
+  footer > .container > .box:nth-child(2)::after {
+    top: -12px;
+    width: 11em;
+  }
+  footer > .container > .box:nth-child(1)::after {
+    display: none;
+  }
+}
