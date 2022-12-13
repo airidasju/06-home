@@ -186,7 +186,7 @@ footer > .container > .box:nth-child(2)::before {
 footer > .container > .box:nth-child(2)::after {
   position: absolute;
   content: url(./../../img/dotted-line.png);
-  top: 51px;
+  top: 45px;
   left: 0px;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -250,10 +250,10 @@ footer > .container > .box:nth-child(4)::after {
 
   .about-info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 10px;
-    justify-items:start;
-    grid-column-gap: 290px;
+    justify-items:center;
+
   }
   main h1 {
     margin-bottom: 30px;
@@ -269,4 +269,7 @@ footer > .container > .box:nth-child(4)::after {
     display: inline-block;
     margin-right: 20px;
   }
+  .info-group:last-child {
+
+grid-column: span 4;  }
 }
