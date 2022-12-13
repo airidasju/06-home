@@ -1,11 +1,12 @@
 body {
   background: url('./../../img/background.jpg') no-repeat center center fixed;
-  position: fixed;
   left: 0px;
   top: 0px;
   z-index: -1;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
+                overflow-y: auto;
 }
 
 a {
@@ -70,3 +71,111 @@ h1 {
     top: -10px;
   }
 }
+
+@media (max-width: 840px) {
+  .line-p::before {
+    top: 23px;
+  }
+
+  main .main-title p {
+    font-size: 40px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  footer > .container > .box:nth-child(1)::before {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    left: 267px;
+   }
+ 
+   footer > .container > .box:nth-child(2)::before {
+     left: 450px;
+     top: -8px;
+   }
+ 
+   footer > .container > .box:nth-child(3)::before {
+     left: 460px;
+     transform: rotate(10deg);
+     top: -14px;
+   }
+ 
+   footer > .container > .box:nth-child(4)::before {
+     left: 480px;
+     top: -10px;
+   }
+
+   footer > .container > .box:nth-child(4)::after {
+    left: 0px;
+    bottom: -12px;
+    width: 11em;
+  }
+  footer > .container > .box:nth-child(3)::after {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: -12px;
+    width: 11em;
+    left:0px;
+  }
+  footer > .container > .box:nth-child(2)::after {
+    top: -12px;
+    width: 11em;
+  }
+  footer > .container > .box:nth-child(1)::after {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+   footer > .container > .box:nth-child(4)::before {
+    display: none;
+  }
+  footer > .container > .box:nth-child(3)::before {
+    display: none;
+  }
+  footer > .container > .box:nth-child(2)::before {
+    display: none;
+  }
+  footer > .container > .box:nth-child(1)::before {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .line-p {
+    display: none;
+  }
+
+  footer > .container > .box:nth-child(1) > h2::after {
+    display: flex;
+    font-size: 18px;
+    content: " Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us";
+  }
+
+}
+
+@media (max-width:504px) {
+  footer > .container > .box:nth-child(4)::after {
+    bottom: 0px;
+  }
+  footer > .container > .box:nth-child(3)::after {
+    bottom: 0px;
+  }
+  footer > .container > .box:nth-child(2)::after {
+    top: -27px;
+  }
+  main .main-title p {
+    font-size: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+}
+
