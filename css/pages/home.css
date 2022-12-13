@@ -72,6 +72,10 @@ h1 {
 }
 
 @media (max-width: 840px) {
+  .line-p::before {
+    top: 23px;
+  }
+
   main .main-title p {
     font-size: 40px;
     margin-bottom: -10px;
@@ -137,6 +141,31 @@ h1 {
   }
   footer > .container > .box:nth-child(1)::before {
     display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .line-p {
+    display: none;
+  }
+
+  footer > .container > .box:nth-child(1) > h2::after {
+    display: flex;
+    font-size: 18px;
+    content: " Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us";
+  }
+
+}
+
+@media (max-width:504px) {
+  footer > .container > .box:nth-child(4)::after {
+    bottom: 0px;
+  }
+  footer > .container > .box:nth-child(3)::after {
+    bottom: 0px;
+  }
+  footer > .container > .box:nth-child(2)::after {
+    top: -27px;
   }
 }
 
