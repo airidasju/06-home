@@ -99,7 +99,7 @@ h1 {
    }
  
    footer > .container > .box:nth-child(3)::before {
-     left: 480px;
+     left: 460px;
      transform: rotate(10deg);
      top: -14px;
    }
