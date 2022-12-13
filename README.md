@@ -1,4 +1,4 @@
-# Sign Up
+# hOME
 
 _website design project_
 
