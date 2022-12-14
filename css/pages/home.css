@@ -1,12 +1,9 @@
 body {
   background: url('./../../img/background.jpg') no-repeat center center fixed;
+  background-color: black;
   left: 0px;
   top: 0px;
   z-index: -1;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-                overflow-y: auto;
 }
 
 a {
@@ -176,6 +173,17 @@ h1 {
   
   h1 {
     font-size: 40px;
+  }
+}
+
+@media (max-width:365px) {
+  footer > .container > .box:nth-child(1) > h2{
+    font-size: 20px;
+  }
+  footer > .container > .box:nth-child(1) > h2::after {
+    display: flex;
+    font-size: 14px;
+    content: " Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us";
   }
 }
 

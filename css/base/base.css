@@ -14,3 +14,8 @@ body {
   font-size: 18px;
   background-color: black;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
